@@ -1,7 +1,6 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import olamundo from "../olamundo";
-import NavBar from "../../components/NavBar";
-import { Button,Text } from "react-native";
+import ListaFilmes from "../ListaFilmes";
+import Sobre from "../todasSeries";
 
 
 const MainStack =createStackNavigator();
@@ -11,17 +10,17 @@ export default () => {
 	<MainStack.Navigator screenOptions={{
 			headerTitleAlign:'center',
 			headerStyle:{
-				backgroundColor:"#900",
+				backgroundColor:"#222",
 				height: 100,
 			},
 			headerTitleStyle:{
-				color: "#000",
+				color: "#fff",
 				fontSize:16
 			}
 		}}>
 		
-			<MainStack.Screen name="Lista de Filmes" component={olamundo} />
-			<MainStack.Screen name="about" component={NavBar} />
+			<MainStack.Screen name="Series" component={ListaFilmes} />
+			<MainStack.Screen name="Sobre" component={Sobre} />
 			
 	</MainStack.Navigator>
 	)
