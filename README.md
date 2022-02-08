@@ -2,9 +2,18 @@
 
  <br>
 
+## APP No IOS
+ 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/89351018/153094841-6e0d594c-733e-475f-9da4-f85784dffd85.gif)
 
 
+<br>
+<br>
+<br>
 
+
+## APP no Android
+![Expo Go (1)](https://user-images.githubusercontent.com/89351018/153095784-5c16bf33-2014-4c20-a58c-8dc9b7b21851.gif)
 
 
 <br>
